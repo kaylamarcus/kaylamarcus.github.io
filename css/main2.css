@@ -6,7 +6,7 @@
 /* ---------Kayla Marcus logo---------*/	
 
 header {
-	background:url(images/satinweave.png);
+	background:url(images/satin.png);
 	width:940px;
 	height:170px;
 	margin-left:auto;
@@ -15,6 +15,10 @@ header {
 	border-radius:10px;
 	box-shadow:0 1px 0 black;
 	}	
+body
+{ 
+background:url('satin.png') no-repeat fixed center; 
+}
 	
 /*---------top navigation bar---------*/
 
@@ -47,7 +51,7 @@ body {
 	font-family:Georgia, "Times New Roman", Times, serif;
 	font-size:16px;
 	color:black;
-	background-image:url(images/backgroundwaves.jpg);	
+	background-image:url(images/satin.jpg);	
 	}
 
 #container {
