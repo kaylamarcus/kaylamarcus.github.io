@@ -17,12 +17,12 @@ header {
 	}	
 body
 { 
-background:url('satin.png') no-repeat fixed center; 
+background-image:url(.png); 
 }
 	
 /*---------top navigation bar---------*/
 
-#navBar {
+#nav {
 	height:29px;
 	width:900px;
 	margin-top:10px;
@@ -109,15 +109,15 @@ p {
 
 /*---------images and list formatting------------*/
 
-#lake {
+#Senior {
 	border:10px solid black;
 	box-shadow:1px 1px 1px black;
 	float:left;
 	margin-top:20px;
 	border-radius:10px;
 	margin-bottom:20px;
-	height:343px;
-	width:232px;
+	height:430px;
+	width:280px;
 	}
 
 #football {
