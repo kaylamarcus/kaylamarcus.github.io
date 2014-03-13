@@ -17,7 +17,7 @@ header {
 	}	
 body
 { 
-background-image:url(.png); 
+background-image:url(satinweave.png); 
 }
 	
 /*---------top navigation bar---------*/
@@ -32,12 +32,29 @@ background-image:url(.png);
 	background-color:#F2ED82; /*light yellow*/
 	padding:10px 29px;
 	font-weight:bold;
-	font-size:19px;
+	font-size:25px;
 	text-align:center;
 	border-radius:10px;
 	box-shadow:1px 1px 1px black;
 	}
-	
+li
+{
+display:inline;
+}
+ul {
+    list-style-type: none;
+}
+nav ul {
+  width: 900px; 
+  margin: 0 auto;
+}
+
+nav li {
+  line-height: 87px;
+  float: center 
+  text-align: center;
+  width: 150px;
+}	
 #navBar li {
 	display:inline;
 	padding-left:5px;
@@ -86,7 +103,9 @@ h2 {
 p {
 	margin-top:15px;
 	}
-
+#aside {
+    float:left;
+}
 /*---------floats and alignment------------*/
 
 .left {
@@ -119,38 +138,32 @@ p {
 	height:430px;
 	width:280px;
 	}
-
-#football {
-	margin-top:10px;
-	}
-
-ul {
-	list-style-type:none;
-}
-
-.twttr {
-	margin-top:15px;
-	margin-right:2px;
-	padding-bottom:10px;
-	height:40px;
-	}
-	
-.twttr img {
+#flower {
+	border:10px solid black;
+	box-shadow:1px 1px 1px black;
 	float:left;
-	border:4px solid black;
-	border-radius:4px;
+	margin-top:20px;
+	border-radius:10px;
+	margin-bottom:20px;
+	height:500px;
+	width:600px;
 	}
 
-img.resume {
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-	}	
 
-figcaption {
+#caption {
 	margin:0px;
 	padding:0px;
 	}	
+#Israel {
+ border:10px solid black;
+	box-shadow:1px 1px 1px black;
+	float:right;
+	margin-top:20px;
+	border-radius:10px;
+	margin-bottom:20px;
+	height:445px;
+	width:420px;
+	}
 
 /*---------bottom navigation bar---------*/
 
