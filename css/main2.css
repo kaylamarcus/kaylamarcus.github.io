@@ -6,7 +6,7 @@
 /* ---------Kayla Marcus logo---------*/	
 
 header {
-	background:url(images/satin.png);
+	background:"imagecopy/satin.png";
 	width:940px;
 	height:170px;
 	margin-left:auto;
@@ -23,14 +23,14 @@ background-image:url(satinweave.png);
 /*---------top navigation bar---------*/
 
 #nav {
-	height:29px;
-	width:900px;
-	margin-top:10px;
+	height:18px;
+	width:850px;
+	margin-top:15px;
 	margin-right:auto;
 	margin-bottom:10px;
 	margin-left:auto;
-	background-color:#F2ED82; /*light yellow*/
-	padding:10px 29px;
+	background-color:#FFFF80; /*yellow*/
+	padding:30px;30px;
 	font-weight:bold;
 	font-size:25px;
 	text-align:center;
@@ -50,12 +50,12 @@ nav ul {
 }
 
 nav li {
-  line-height: 87px;
+  line-height: 8px;
   float: center 
   text-align: center;
   width: 150px;
 }	
-#navBar li {
+#navbar {
 	display:inline;
 	padding-left:5px;
 	padding-right:5px;
@@ -70,7 +70,6 @@ body {
 	color:black;
 	background-image:url(images/satin.jpg);	
 	}
-
 #container {
 	margin-left:auto;
 	margin-right:auto;
@@ -78,10 +77,11 @@ body {
 	}	
 	
 #wrapper {
-	width:665px;
+	width:600px;
 	margin-top:20px;
 	margin-bottom:20px;
-	padding:6px;
+	padding:2px;
+    align-content: center
 	background-color:white;
 	border-radius:10px;
 	border:10px solid black;
@@ -91,7 +91,7 @@ body {
 
 #wrapper figure  {
 	text-align:center;
-	margin-top:5px;
+	margin-top:0px;
 	}
 
 h2 {
@@ -116,19 +116,18 @@ p {
 .right {
 	float:right;
 	margin:0px;
-	padding-right:11px;
+	padding-right:30px;
 	}
 
 .center {
 	margin-left:auto;
 	margin-right:auto;
-	width:450px;
 	text-align:center;
 	}	
 
 /*---------images and list formatting------------*/
 
-#Senior {
+#senior {
 	border:10px solid black;
 	box-shadow:1px 1px 1px black;
 	float:left;
@@ -138,55 +137,24 @@ p {
 	height:430px;
 	width:280px;
 	}
-#flower {
-	border:10px solid black;
-	box-shadow:1px 1px 1px black;
-	float:left;
-	margin-top:20px;
-	border-radius:10px;
-	margin-bottom:20px;
-	height:500px;
-	width:600px;
-	}
 
 
-#caption {
-	margin:0px;
-	padding:0px;
-	}	
 #Israel {
  border:10px solid black;
 	box-shadow:1px 1px 1px black;
-	float:right;
-	margin-top:20px;
-	border-radius:10px;
-	margin-bottom:20px;
-	height:445px;
-	width:420px;
-	}
-
-/*---------bottom navigation bar---------*/
-
-#footer {
-	height:29px;
-	width:900px;
-	background-color:#F2ED82; /*light yellow*/
-	padding:10px 29px;
+	float:right; 10px;
+    align-self: auto
+    margin-left:5px;
+    margin-right:10px;
 	margin-top:10px;
-	margin-right:auto;
-	margin-bottom:20px;
-	margin-left:auto;
 	border-radius:10px;
-	position:relative;
-	clear:both;
-	text-align:center;
-	font-weight:bold;
-	font-size:19px;
-	box-shadow:1px 1px 1px black;
+	margin-bottom:20px;
+	height:435px;
+	width:400px;
 	}
 	
 #footer li {
-	display:inline;
+    clear: both
 	padding-left:5px;
 	padding-right:5px;
 
@@ -215,10 +183,3 @@ a:active {
 	font-weight:normal;
 	}
 
-.twttr a {
-	text-decoration:underline;
-	}
-
-p a {
-	text-decoration:underline;
-	}
