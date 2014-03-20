@@ -6,7 +6,7 @@
 /* ---------Kayla Marcus logo---------*/	
 
 header {
-	background:"imagecopy/satin.png";
+	background: 
 	width:940px;
 	height:170px;
 	margin-left:auto;
@@ -17,7 +17,7 @@ header {
 	}	
 body
 { 
-background-image:url(satinweave.png); 
+background: url("images/images/light_grey.jpg") no-repeat fixed center; 
 }
 	
 /*---------top navigation bar---------*/
@@ -68,7 +68,7 @@ body {
 	font-family:Georgia, "Times New Roman", Times, serif;
 	font-size:16px;
 	color:black;
-	background-image:url(images/satin.jpg);	
+	background-image:"images/images/satin.png";	
 	}
 #container {
 	margin-left:auto;
@@ -95,7 +95,7 @@ body {
 	}
 
 h2 {
-	font-size:30px;
+	font-size:40px;
 	margin-bottom:10px;
 	padding-left:10px;
 	}
@@ -151,25 +151,29 @@ p {
 	margin-bottom:20px;
 	height:435px;
 	width:400px;
-	}
+	} 
 	
-#footer li {
-    clear: both
-	padding-left:5px;
-	padding-right:5px;
+#footer  
+        {
+        height:29px;
+        width:900px;
+        background-color:white;
+        padding:10px 29px;
+        margin-top:10px;
+        margin-right:auto;
+        margin-bottom:20px;
+        margin-left:auto;
+        border-radius:10px;
+        position:relative;
+        clear:both;
+        text-align:center;
+        font-size:12px;
+       
 
-	}	
-
-footer p {
-	font-size:10px;
-	color:black;
-	text-align:center;
-	margin-top:-1px;
-	}	
 	
 /*---------link styles---------*/
 
-a {
+a  {
 	color:black;
 	text-decoration:none;
 	}
