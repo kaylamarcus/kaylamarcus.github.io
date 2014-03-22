@@ -6,7 +6,6 @@
 /* ---------Kayla Marcus logo---------*/	
 
 header {
-	background: 
 	width:940px;
 	height:170px;
 	margin-left:auto;
@@ -17,14 +16,14 @@ header {
 	}	
 body
 { 
-background: url("images/images/light_grey.jpg") no-repeat fixed center; 
+background-image:url(../images/light_grey.jpg);
 }
 	
 /*---------top navigation bar---------*/
 
 #nav {
 	height:18px;
-	width:850px;
+	max-width:850px;
 	margin-top:15px;
 	margin-right:auto;
 	margin-bottom:10px;
@@ -77,15 +76,16 @@ body {
 	}	
 	
 #wrapper {
-	width:600px;
+	max-width:960px;
 	margin-top:20px;
 	margin-bottom:20px;
+    margin-left: auto;
+    margin-right:auto;
 	padding:2px;
     align-content: center
 	background-color:white;
 	border-radius:10px;
 	border:10px solid black;
-	float:right;
 	box-shadow:1px 1px 1px black;
 	}
 
@@ -103,9 +103,7 @@ h2 {
 p {
 	margin-top:15px;
 	}
-#aside {
-    float:left;
-}
+
 /*---------floats and alignment------------*/
 
 .left {
