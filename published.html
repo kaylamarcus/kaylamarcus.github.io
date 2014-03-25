@@ -3,12 +3,12 @@
     <head>
         <meta charset="UTF-8"/>
             <title> Kayla Marcus</title>
-        <meta name="description" content="A basic HTML layout styles with CSS.">
-        <meta name="keywords" content="HTML,CSS,layout,wireframe,mmc3260">
-        <link href="css/main2.css" rel="stylesheet" type="text/css" />
+        <link href="css/main2.css" rel="stylesheet" type="text/css"/>     
+        <link href="index.html">   
     </head>
-        <h1 style="font-family:Arial; font-size:60px;text-align:center" > Kayla Marcus </h1>
-        <body> 
+    <body>
+         <div id="wrapper">
+        <h1 style="font family:Arial; font-size:60px;text-align:center" > Kayla Marcus</h1>
         <!--Navigation content here--> 
         <div id="nav"> 
             <nav role="navigation"> 
@@ -22,8 +22,6 @@
              </div>
         <h2 style= "text-align:center"> Published Works </h2>
         <!-- ===Start main content here=== -->
-    <div id="center">
-    <div id="container"> <!--Container is constant on all pages--> 
         <div id="senior"> 
         <figure>     
                <img src="images/KM2.jpg" width=280 height=430 title="Kayla Marcus" />
@@ -31,30 +29,42 @@
         </figure>
         </div>
             <!--Picture will remain on each page--> 
-            <div id="wrapper"> 
-                <h2> peerFit</h2>
-            <div id="peerfit"> 
-        <img src="images/images/peerFit_App.png" width="75" height="75" />
-                </div>
-                </div>
-                
+                <div id="wrapper"> 
+                <h3> peerFit</h3>
+                <p class="float center"> 
                 <a href="http://www.peerfit.com/blog/author/kayla-marcus/"> peerFit blogs by Kayla Marcus </a>  
-            <h2> The Independant Florida Alligator</h2>
+                    </p> 
+        <img src="images/peerFit_App.png" width="75" height="75" />
+                    </div> <!--closes peerFit wrapper--> 
+                 <div id="wrapper"> 
+            <h3> The Independant Florida Alligator</h3>
+        <p class="float center">
+                    <a href="http://www.alligator.org/search/t=article&q=Kayla+Marcus&x=0&y=0"> alliagtor articles by Kayla Marcus </a>
+            </p>
             <img src="images/alligator.png" height="75" width="75" />
-            <h2> wuft</h2>
-            <a> 
-            <img src="images/images/wuft.png" width="120" height="75" />
-            </a>
-            <h2> UF International Center </h2>
-            <img src="images/images/UF.png" width=75 height=75/>
-            </div>
+                     </div> <!--closes Alligator wrapper-->
+         <div id="wrapper"> 
+            <h3> wuft</h3>
+             <p class=" float center">  
+                <a href="http://www.wuft.org/news/2013/04/09/gainesville-restaurant-sells-soil-back-to-farmers/" > Gainesville restaurant sells soil back to farmers </a>  
+                </p>
+            <img src="images/wuft.png" width="120" height="75" />
+             </div> <!--closes wuft wrapper-->
+     <div id="wrapper">
+          <h3> UF International Center </h3>
+             <p class="float center"> 
+             <a href="http://globalgator.wordpress.com/category/africa-the-middle-east/israel-africa-the-middle-east/kayla-summer-in-israel-2013/"> 
+    UF International Center study abroad in Israel             
+                 </a>
+             </p>
+            <img src="images/UF.png" width=75 height=75/>
+         </div> <!--closes UF wrapper-->
             </div>
         </body>
          <footer>
                <div id="footer"> 
                <p>&copy;2014 Kayla Marcus</p>
                    </div>
-             </div>
            </footer>
         </html>
     
