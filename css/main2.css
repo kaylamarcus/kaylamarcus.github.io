@@ -31,7 +31,7 @@ nav {
 	background-color:#FFFF80; /*yellow*/
 	padding:30px;30px;
 	font-weight:bold;
-	font-size:25px;
+	font-size:22px;
 	text-align:center;
     border:10px solid black;
 	border-radius:10px;
@@ -60,7 +60,7 @@ nav li {
 
 body {
 	margin-top:80px;
-	font-family:Georgia, "Times New Roman", Times, serif;
+	font-family:Calibri, "Times New Roman", Times,Calibri serif;
 	font-size:16px;
 	color:black;
 	background-image:"images/images/satin.png";	
@@ -70,7 +70,10 @@ article {
     width:90%;
     padding:15px;
     margin-left: 25px;
-         }	
+         }
+h2   {
+    font-size: 40px;
+}
 	
 #wrapper {
 	max-width:960px;
@@ -85,18 +88,45 @@ article {
 	border:10px solid black;
 	box-shadow:1px 1px 1px black;
 	}
-
+#wrapper2 {
+	width:450px;
+	margin-top:20px;
+	margin-bottom:20px;
+    margin-left: auto;
+    margin-right:40px;
+	padding:10px;
+    float: right
+    align-content: center
+	background-color:white;
+	border-radius:20px;
+	border:10px solid black;
+	box-shadow:1px 1px 1px black;
+	}
 #wrapper figure  {
 	text-align:center;
 	margin-top:0px;
 	}
+#video {
+	margin-top:20px;
+	margin-bottom:20px;
+    margin-left: auto;
+    margin-right:20px;
+	padding:10px;
+    float: right;
+    align-content: center;
+    }
+#contact{
+    text-align: center
+        }
+#African {
+        float: right;
+        padding:10px;
+            }
+#African2 {
+    float:left;
+    padding: 10px;
+   }
 
-h2 {
-	font-size:40px;
-	margin-bottom:10px;
-	padding-left:10px;
-	}
-	
 p {
 	margin-top:15px;
 	}
